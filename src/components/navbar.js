@@ -10,8 +10,8 @@ class Navbar extends Component {
                 <Segment inverted>
 
                     <Menu inverted secondary className="headSegment">
-                        <Menu.Item>
-                            <img src=''
+                        <Menu.Item className="">
+                            <img src='https://media.flaticon.com/dist/min/img/flaticon-logo.svg'
                             />
                         </Menu.Item>
 
