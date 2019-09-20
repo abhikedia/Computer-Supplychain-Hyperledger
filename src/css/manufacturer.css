@@ -1,0 +1,54 @@
+.topbar {
+  background-color: whitesmoke;
+}
+.name {
+  padding: 20px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  align-content: center;
+}
+.cComponent {
+  color: orange !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.icon {
+  padding: 1px !important;
+}
+
+.full {
+  height: 100% !important;
+  width: 100% !important;
+  align-content: center;
+  background-color: orange;
+}
+
+/* .button {
+  align-content: center;
+  padding-left: 50% !important;
+  margin-top: 40% !important;
+  margin-right: 50% !important;
+} */
+
+.gridDivision {
+  align-content: center;
+}
+
+.admin {
+  padding-left: 60% !important;
+}
+
+.manup {
+  margin-left: 60% !important;
+  margin-top: 20% !important;
+}
+.orient {
+  margin-left: 55% !important;
+  /* margin-top: 20% !important; */
+}
+
+.non {
+  margin-top: 15%;
+}
