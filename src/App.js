@@ -2,11 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'semantic-ui-react';
+import Navbar from '../src/components/navbar'
 
 function App() {
   return (
     <div>
-      <h1>THE APP</h1>
+      <Navbar />
     </div>
   );
 }
