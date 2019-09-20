@@ -52,3 +52,12 @@
 .non {
   margin-top: 15%;
 }
+
+.button1 {
+  background-color: orange !important;
+  margin-left: 82% !important;
+  padding-right: 3% !important;
+  padding-left: 3% !important;
+  padding-top: 1% !important;
+  margin-bottom: 3% !important;
+}

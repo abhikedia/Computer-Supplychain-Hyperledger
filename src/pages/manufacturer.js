@@ -107,7 +107,7 @@ class Manufacturer extends Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-
+                <Button className="button1" content='SUBMIT' type="submit" />
 
             </div >
 
