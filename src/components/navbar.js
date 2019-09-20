@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
 import { Menu, Segment } from 'semantic-ui-react';
+
+const imgMyimageexample = require('../LOGGGG-03.jpg');
+const divStyle = {
+    backgroundImage: `url(${imgMyimageexample})`,
+    backgroundSize: 'cover',
+};
 class Navbar extends Component {
     state = {}
 
@@ -10,9 +16,9 @@ class Navbar extends Component {
                 <Segment inverted>
 
                     <Menu inverted secondary className="headSegment">
-                        <Menu.Item className="">
-                            <img src='https://media.flaticon.com/dist/min/img/flaticon-logo.svg'
-                            />
+                        <Menu.Item className="logo">
+                            <div className="cComponent" style={divStyle} >
+                            </div>
                         </Menu.Item>
 
                         <Menu.Item

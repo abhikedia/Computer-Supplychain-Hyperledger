@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-class extends Component {
+class Demo extends Component {
     state = {}
     render() {
         return (  );
     }
 }
 
-import React, { Component } from 'react';export de
-fault;
+import React, { Component } from 'react';
+export default Demo;
