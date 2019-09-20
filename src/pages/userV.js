@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import '../css/userV.css'
 import { Input, Button, Header, Image, Table, Container } from 'semantic-ui-react';
+import Navbar from '../components/navbar'
 
 class UserV extends Component {
     state = {}
     render() {
         return (
             <div>
-                <div>
-                    <input type="text" placeholder="Enter the product serial number"/>
+                <div className="button2" >
+                    <input className="some" type="text" placeholder="SCAN SERIAL NUMBER" />
                         </div> 
                     <section class="shrink">
                     <div class="tbl-header">
-                        <table basic-='very' ellpadding="5" cellspacing="4" border="0">
+                        <table basic ='very' cellpadding="4" cellspacing="10" border="0">
                             <thead>
                                 <tr>
                                     <th>PRODUCT</th>
@@ -23,7 +24,7 @@ class UserV extends Component {
                         </table>
                     </div>
                     <div class="tbl-content">
-                        <table cellpadding="0" cellspacing="0" border="0">
+                        <table cellpadding="0" cellspacing="10" border="0">
                             <tbody>
                                 <tr>
                                     <Header as='h2' image>
