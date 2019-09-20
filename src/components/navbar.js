@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import '../css/navbar.css';
 import { Menu, Segment } from 'semantic-ui-react';
-
-
-
 class Navbar extends Component {
     state = {}
 
