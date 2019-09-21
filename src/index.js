@@ -5,8 +5,9 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import UserV from '../src/pages/userV'
 import Maps from '../src/pages/maps'
 import Manufacturer from '../src/pages/manufacturer'
-import Checkpoint from '../src/pages/checkpoints'
+import Checkpoint1 from '../src/pages/checkpoint1'
 import Checkpoint2 from '../src/pages/checkpoint2'
+import Dealers from '../src/pages/dealers'
 import * as serviceWorker from './serviceWorker';
 
 
@@ -16,8 +17,9 @@ const routing = (
       <Route exact path="/user" component={UserV} />
       <Route exact path="/maps" component={Maps} />
       <Route exact path="/manufacturer" component={Manufacturer} />
-      <Route exact path="/checkpoints" component={Checkpoint} />
+      <Route exact path="/checkpoint1" component={Checkpoint1} />
       <Route exact path="/checkpoint2" component={Checkpoint2} />
+      <Route exact path="/dealers" component={Dealers} />
     </div>
   </Router>
 )

@@ -3,14 +3,14 @@ import Navbar from '../components/navbar'
 import { Grid, Image, Container, Input } from 'semantic-ui-react'
 import '../css/checkpoint.css'
 
-class Checkpoint extends Component {
+class Dealers extends Component {
     state = {}
     render() {
         return (
             <div>
                 <Navbar />
                 <div>
-                    <h1 className="prope">CHECKPOINT</h1>
+                    <h1 className="prope">DEALERS</h1>
                 </div>
                 <div className="maincss">
                     <Grid centered className="orient" >
@@ -23,7 +23,8 @@ class Checkpoint extends Component {
                 </div>
             </div>
         );
+
     }
 }
 
-export default Checkpoint;
+export default Dealers;
