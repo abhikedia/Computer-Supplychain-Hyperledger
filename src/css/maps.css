@@ -4,3 +4,7 @@ html {
   margin: 0;
   background-color: black;
 }
+.mapn {
+  height: 500px !important;
+  width: 500px !important;
+}
