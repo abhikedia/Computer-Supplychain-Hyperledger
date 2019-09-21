@@ -17,8 +17,7 @@ class Navbar extends Component {
 
                     <Menu inverted secondary className="headSegment">
                         <Menu.Item className="logo">
-                            <div className="cComponent" style={divStyle} >
-                            </div>
+                            <h1 class="boldi">Verify</h1>
                         </Menu.Item>
 
                         <Menu.Item

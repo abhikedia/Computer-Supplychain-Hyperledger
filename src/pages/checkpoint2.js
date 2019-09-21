@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Navbar from '../components/navbar'
-import { Grid, Image, Container, Input } from 'semantic-ui-react'
+import Navbar from '../components/navbar';
+import { Grid, Image, Container, Input } from 'semantic-ui-react';
 import '../css/checkpoint.css'
 
-class Checkpoint extends Component {
+class Checkpoint2 extends Component {
     state = {}
     render() {
         return (
@@ -26,4 +26,4 @@ class Checkpoint extends Component {
     }
 }
 
-export default Checkpoint;
+export default Checkpoint2;

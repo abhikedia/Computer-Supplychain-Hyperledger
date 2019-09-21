@@ -6,6 +6,7 @@ import UserV from '../src/pages/userV'
 import Maps from '../src/pages/maps'
 import Manufacturer from '../src/pages/manufacturer'
 import Checkpoint from '../src/pages/checkpoints'
+import Checkpoint2 from '../src/pages/checkpoint2'
 import * as serviceWorker from './serviceWorker';
 
 
@@ -16,6 +17,7 @@ const routing = (
       <Route exact path="/maps" component={Maps} />
       <Route exact path="/manufacturer" component={Manufacturer} />
       <Route exact path="/checkpoints" component={Checkpoint} />
+      <Route exact path="/checkpoint2" component={Checkpoint2} />
     </div>
   </Router>
 )
