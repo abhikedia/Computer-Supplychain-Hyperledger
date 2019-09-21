@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import '../css/maps.css'
-import { Container } from 'semantic-ui-react';
+import { Map, GoogleApiWrapper, Marker, mapStyles } from 'google-maps-react';
 
-class Maps extends Component {
-    state = {}
+class Gmaps extends Component {
     constructor(props) {
         super(props);
 
@@ -27,10 +24,23 @@ class Maps extends Component {
                 onClick={() => console.log("You clicked me!")} />
         })
     }
+
     render() {
         return (
-            <Container >
-
+            <Map
+                google={this.props.google}
+                zoom={8}
+                style={mapStyles}
+                initialCenter={{ lat: 47.444, lng: -122.176 }}
+            >
+                {this.displayMarkers()}
+            </Map>
+        );
+    }
+    state = {}
+    render() {
+        return (
+            <div>
                 <Map
                     google={this.props.google}
                     zoom={8}
@@ -39,16 +49,9 @@ class Maps extends Component {
                 >
                     <Marker position={{ lat: 48.00, lng: -122.00 }} />
                 </Map>
-            </Container>
-
+            </div>
         );
     }
 }
-export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCGPO-ngnP6MAlaIrtw5vCnamE2Poj3g0Y'
-})(Maps);
 
-const mapStyles = {
-    width: '100%',
-    height: '100%',
-};
+export default Gmaps;

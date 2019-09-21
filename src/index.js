@@ -9,6 +9,7 @@ import Checkpoint2 from '../src/pages/checkpoint2'
 import Gmaps from '../src/pages/maps'
 import StartPage from '../src/pages/StartPage'
 import Dealers from '../src/pages/dealers'
+import Itemtrack from '../src/pages/itemTrack'
 import * as serviceWorker from './serviceWorker';
 
 
@@ -24,6 +25,7 @@ const routing = (
       <Route exact path="/dealers" component={Dealers} />
       <Route exact path="/maps" component={Gmaps} />
       <Route exact path="/startpage" component={StartPage} />
+      <Route exact path="/itemtrack" component={Itemtrack} />
     </div>
   </Router>
 )
