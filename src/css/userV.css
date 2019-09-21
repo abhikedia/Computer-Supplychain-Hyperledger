@@ -61,17 +61,17 @@ td {
 
 /* demo styles */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400, 500, 300, 700);
+@import url("https://fonts.googleapis.com/css?family=Roboto: 400, 500, 300, 700");
 body {
   /* background: -webkit-linear-gradient(left, #25c481, #25b7c4);
   background: linear-gradient(to right, #25c481, #25b7c4); */
-  font-family: "Roboto", sans-serif;
   background: url("../Authenticate-01.jpg");
-
+  background-size: cover;
   background-position: top;
-  background: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  background: cover;
 }
 section {
   margin: 50px;
@@ -128,4 +128,13 @@ section {
   border-radius: 18%;
   border: 0px;
   border-color: #f50057 !important;
+}
+
+.button3 {
+  background-color: rgb(25, 238, 220) !important;
+  margin-left: 25px !important;
+  padding-right: 3% !important;
+  padding-left: 3% !important;
+  padding-top: 1% !important;
+  margin-bottom: 3% !important;
 }

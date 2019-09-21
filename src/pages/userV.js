@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import '../css/userV.css'
 import { Input, Button, Header, Image, Table, Container } from 'semantic-ui-react';
-import Navbar from '../components/navbar'
+
 
 class UserV extends Component {
     state = {}
     render() {
         return (
+            
             <div>
                 <div className="button2" >
                     <input className="some" type="text" placeholder="SCAN SERIAL NUMBER" />
+                    <Button className="button3" content='SUBMIT' type="submit" />
                         </div> 
                     <section class="shrink">
                     <div class="tbl-header">
